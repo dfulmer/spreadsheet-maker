@@ -26,8 +26,11 @@ To use the first program in directory 1:
 This program requires two packages: pandas and xlsxwriter.  
 ```python -m pip install pandas xlsxwriter```  
 
+Change into the /1 directory:
+```cd 1```  
+
 To run the program you need to put files with .tsv file extensions into the /1 directory. Then give the command:  
-```python 1/maker1.py```  
+```python maker1.py```  
 
 
 
