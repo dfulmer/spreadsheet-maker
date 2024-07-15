@@ -4,3 +4,5 @@ __pycache__/
 
 # Virtualenv
 venv/
+
+1/*.xlsx

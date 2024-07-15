@@ -15,4 +15,4 @@ for filename in os.listdir('.'):
         df.to_excel(writer, sheet_name=sheet_name, index=False)
 
 # Save the Excel file
-writer.save()
+writer.close()
