@@ -38,4 +38,4 @@ for filename in os.listdir('.'):
             print(f"Error processing file {filename}: {e}")
 
 # Save the Excel file
-writer.save()
+writer.close()
