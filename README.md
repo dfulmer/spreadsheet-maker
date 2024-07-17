@@ -37,7 +37,8 @@ maker_original... are original scripts, unedited.
 maker1.py and maker2.py are edited scripts.
 maker2.py will successfully combine tsv files into one Excel spreadsheet.
 
-
+# Directory 2
+I gave up on this and never got it to work.
 
 
 
