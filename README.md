@@ -32,6 +32,15 @@ Change into the /1 directory:
 To run the program you need to put files with .tsv file extensions into the /1 directory. Then give the command:  
 ```python maker1.py```  
 
+Notes on /1:
+maker_original... are original scripts, unedited.
+maker1.py and maker2.py are edited scripts.
+maker2.py will successfully combine tsv files into one Excel spreadsheet.
+
+# Directory 2
+I gave up on this and never got it to work.
+
+
 
 
 
