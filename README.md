@@ -40,7 +40,7 @@ maker2.py will successfully combine tsv files into one Excel spreadsheet.
 # Directory 2
 I gave up on this and never got it to work.
 
-# Directory 2
+# Directory 3
 maker_original3.py came close but was stripping out leading tabs in many files.
 maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet.
 
