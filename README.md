@@ -48,6 +48,10 @@ maker1.py - this appears to work. It leaves in those leading tabs and does not f
 combine_tsv_to_excel.py - has some errors
 combine_tsv_to_excel2.py - I think this achieves the desired results.
 
+# Directory 5
+
+# Directory 6
+maker_original.py - this is the first try.
 
 
 
