@@ -48,8 +48,22 @@ maker1.py - this appears to work. It leaves in those leading tabs and does not f
 combine_tsv_to_excel.py - has some errors
 combine_tsv_to_excel2.py - I think this achieves the desired results.
 
+# Directory 5
 
+# Directory 6
+maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file.
 
+maker_original2.py - this is the second try. Doesn't save and includes only partial data for the summary file.
+
+maker_original3.py - same as the last one, just changes .save() to .close()
+
+maker_original4.py - This is bad. Now every sheet has Key and Value as column headers.
+
+maker_original5.py - This is really good except the header lines all have formatting and in the summary sheet it starts with “Content” and then the data is below that.
+
+maker_original6.py - This is almost perfect. The summary sheet looks great and each line is just a line. 
+
+maker_original7.py - This does what it should do. All the tsv files are turned into worksheets, the anomalous summary sheet has no columns but does have all data in it, and headers do not have formatting.
 
 
 
