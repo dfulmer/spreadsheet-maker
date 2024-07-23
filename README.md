@@ -51,7 +51,9 @@ combine_tsv_to_excel2.py - I think this achieves the desired results.
 # Directory 5
 
 # Directory 6
-maker_original.py - this is the first try.
+maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file.
+maker_original2.py - this is the second try. Doesn't save and includes only partial data for the summary file.
+
 
 
 
