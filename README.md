@@ -66,6 +66,8 @@ maker_original6.py - This is almost perfect. The summary sheet looks great and e
 maker_original7.py - This does what it should do. All the tsv files are turned into worksheets, the anomalous summary sheet has no columns but does have all data in it, and headers do not have formatting.
 
 
+# Directory 7
+
 
 
 TBD
