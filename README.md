@@ -66,7 +66,12 @@ maker_original6.py - This is almost perfect. The summary sheet looks great and e
 maker_original7.py - This does what it should do. All the tsv files are turned into worksheets, the anomalous summary sheet has no columns but does have all data in it, and headers do not have formatting.
 
 
+# Directory 7
+maker_original.py - this is the first try. Everything seems to be there except the Excel spreadsheet starts with a blank worksheet, called "Sheet".
 
+maker_original2.py - this is the second try. I think it would prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
+
+maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected.
 
 TBD
 
