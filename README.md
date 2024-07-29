@@ -73,6 +73,20 @@ maker_original2.py - this is the second try. I think it would prevent making a s
 
 maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected.
 
+
+# Directory 7
+maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. It never worked.
+
+maker_original2.py - this just put everything in one cell for the summary tsv file.
+
+maker_original3.py - this is almost perfect, it just has the header formatted in bold (I also changed .save to .close. The error was "AttributeError: 'XlsxWriter' object has no attribute 'save'").
+
+maker_original4.py - this one does not have a first row, it removed it.
+
+maker_original5.py - this one does what I want. The summary tsv file is all in a worksheet, and the header is not formatted.
+
+
+
 TBD
 
 # Deactivate the virtual environment
