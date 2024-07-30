@@ -44,6 +44,9 @@ maker_original2.py - this script does not work either. This one just includes th
 
 maker_original3.py - this script basically works. All the information from the tsv files are in the final spreadsheet. However, the first row has formatting (bold and centered cells).
 
+maker_original4.py - this script was an attempt to remove the formatting from the first row. While it does remove that formatting, it also has the same first row in every worksheet, including the anomalous worksheet, where the first row of information is missing and replaced with the first row from the other worksheets.
+
+
 
 # Directory 2
 I gave up on this and never got it to work.
