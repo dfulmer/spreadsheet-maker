@@ -48,6 +48,7 @@ maker_original4.py - this script was an attempt to remove the formatting from th
 
 maker1.py - this script has a problem with the anomalous tsv file: the first two lines are missing from the spreadsheet.
 
+maker2.py - this script works. It has all the information from the original tsv files in the spreadsheet. There is no header formatting. The anomalous file is all in a worksheet, including the first two lines. And the next 6 lines of that worksheet have two columns with the information separated out.
 
 # Directory 2
 I gave up on this and never got it to work.
