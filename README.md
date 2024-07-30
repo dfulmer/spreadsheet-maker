@@ -32,10 +32,23 @@ Change into the /1 directory:
 To run the program you need to put files with .tsv file extensions into the /1 directory. Then give the command:  
 ```python maker1.py```  
 
+# Directory 1
 Notes on /1:
 maker_original... are original scripts, unedited.
 maker1.py and maker2.py are edited scripts.
 maker2.py will successfully combine tsv files into one Excel spreadsheet.
+
+maker_original.py - this script does not work. It cannot handle the anomalous tsv file with two lines without tabs.
+
+maker_original2.py - this script does not work either. This one just includes the anomalous tsv file in the final spreadsheet and reports errors processing the other 5 tsv files.
+
+maker_original3.py - this script basically works. All the information from the tsv files are in the final spreadsheet. However, the first row has formatting (bold and centered cells).
+
+maker_original4.py - this script was an attempt to remove the formatting from the first row. While it does remove that formatting, it also has the same first row in every worksheet, including the anomalous worksheet, where the first row of information is missing and replaced with the first row from the other worksheets.
+
+maker1.py - this script has a problem with the anomalous tsv file: the first two lines are missing from the spreadsheet.
+
+maker2.py - this script works. It has all the information from the original tsv files in the spreadsheet. There is no header formatting. The anomalous file is all in a worksheet, including the first two lines. And the next 6 lines of that worksheet have two columns with the information separated out.
 
 # Directory 2
 I gave up on this and never got it to work.
