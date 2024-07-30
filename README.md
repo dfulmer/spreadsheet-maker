@@ -46,6 +46,7 @@ maker_original3.py - this script basically works. All the information from the t
 
 maker_original4.py - this script was an attempt to remove the formatting from the first row. While it does remove that formatting, it also has the same first row in every worksheet, including the anomalous worksheet, where the first row of information is missing and replaced with the first row from the other worksheets.
 
+maker1.py - this script has a problem with the anomalous tsv file: the first two lines are missing from the spreadsheet.
 
 
 # Directory 2
