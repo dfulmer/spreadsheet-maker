@@ -42,6 +42,7 @@ maker_original.py - this script does not work. It cannot handle the anomalous ts
 
 maker_original2.py - this script does not work either. This one just includes the anomalous tsv file in the final spreadsheet and reports errors processing the other 5 tsv files.
 
+maker_original3.py - this script basically works. All the information from the tsv files are in the final spreadsheet. However, the first row has formatting (bold and centered cells).
 
 
 # Directory 2
