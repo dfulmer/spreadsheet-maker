@@ -40,6 +40,10 @@ maker2.py will successfully combine tsv files into one Excel spreadsheet.
 
 maker_original.py - this script does not work. It cannot handle the anomalous tsv file with two lines without tabs.
 
+maker_original2.py - this script does not work either. This one just includes the anomalous tsv file in the final spreadsheet and reports errors processing the other 5 tsv files.
+
+
+
 # Directory 2
 I gave up on this and never got it to work.
 
