@@ -51,7 +51,7 @@ maker1.py - this script has a problem with the anomalous tsv file: the first two
 maker2.py - this script works. It has all the information from the original tsv files in the spreadsheet. There is no header formatting. The anomalous file is all in a worksheet, including the first two lines. And the next 6 lines of that worksheet have two columns with the information separated out.
 
 # Directory 2
-I gave up on this and never got it to work.
+I gave up on this and never got it to work. None of the scripts in this directory create an openable Excel file.
 
 maker_original.py - this script has a problem with the summary tsv file.
 
