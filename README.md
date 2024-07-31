@@ -55,6 +55,11 @@ I gave up on this and never got it to work.
 
 maker_original.py - this script has a problem with the summary tsv file.
 
+maker_original2.py - this script has a problem with the summary tsv file.
+
+
+
+
 # Directory 3
 maker_original3.py came close but was stripping out leading tabs in many files.
 maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet.
