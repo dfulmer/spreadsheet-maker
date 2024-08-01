@@ -70,7 +70,11 @@ maker_original2.py - this script succeeded in making the spreadsheet but had a p
 
 maker_original3.py - this script came close to success but was stripping out leading tabs in many files. This resulted in data getting moved over to the left.
 
-maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet.
+maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet. This script is maker_original3.py with one change, line 18. This:
+```fields = line.strip().split('\t')```  
+was changed to this:
+```fields = line.strip('\n').split('\t')```  
+
 
 # Directory 4
 combine_tsv_to_excel.py - has some errors
