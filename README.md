@@ -53,7 +53,7 @@ maker2.py - this script works. It has all the information from the original tsv 
 # Directory 2
 I gave up on this and never got it to work. None of the scripts in this directory create an openable Excel file.
 
-maker_original.py - this script has a problem with the summary tsv file. Although it actually did successfully create a spreadsheet with two worksheets that look okay. It appears to have been in the process of creating the spreadsheet when it got stuck on the summary tsv file which stopped it from proceeding with the creation of all the worksheets.
+maker_original.py - this script has a problem with the summary tsv file.
 
 maker_original2.py - this script has a problem with the summary tsv file.
 
@@ -64,7 +64,7 @@ maker_original4.py - this script has a problem with the summary tsv file.
 maker_original5.py - this script has a problem with the summary tsv file.
 
 # Directory 3
-maker_original.py - this script has a problem with the summary tsv file.
+maker_original.py - this script has a problem with the summary tsv file. Although it actually did successfully create a spreadsheet with two worksheets that look okay. It appears to have been in the process of creating the spreadsheet when it got stuck on the summary tsv file which stopped it from proceeding with the creation of all the worksheets.
 
 maker_original3.py came close but was stripping out leading tabs in many files.
 maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet.
