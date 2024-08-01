@@ -68,7 +68,8 @@ maker_original.py - this script has a problem with the summary tsv file. Althoug
 
 maker_original2.py - this script succeeded in making the spreadsheet but had a problem with the summary tsv file. It included lines 1 and 2 in the spreadsheet but skipped lines 3-8.
 
-maker_original3.py came close but was stripping out leading tabs in many files.
+maker_original3.py - this script came close to success but was stripping out leading tabs in many files. This resulted in data getting moved over to the left.
+
 maker1.py - this appears to work. It leaves in those leading tabs and does not format the header, and handles the summary tsv file appropriatley, including all lines in the final spreadsheet.
 
 # Directory 4
