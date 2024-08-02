@@ -77,7 +77,7 @@ was changed to this:
 
 
 # Directory 4
-combine_tsv_to_excel.py - has some errors. This script has a problem with the summary tsv file and uses excel_writer.save() instead of excel_writer.close().
+combine_tsv_to_excel.py - has some errors. This script has a problem with the summary tsv file and uses excel_writer.save() instead of excel_writer.close(). I changed engine='openpyxl' to engine='xlsxwriter' too.
 
 combine_tsv_to_excel2.py - I think this achieves the desired results.
 
