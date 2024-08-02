@@ -79,7 +79,8 @@ was changed to this:
 # Directory 4
 combine_tsv_to_excel.py - has some errors. This script has a problem with the summary tsv file and uses excel_writer.save() instead of excel_writer.close(). I changed engine='openpyxl' to engine='xlsxwriter' too. A spreadsheet is created but it has no data in it.
 
-combine_tsv_to_excel2.py - I think this achieves the desired results.
+combine_tsv_to_excel2.py - I think this achieves the desired results. I changed the engine again and also changed writer.save to writer.close. In the worksheet made from the summary file it doesn’t have columns for lines 3 to 8, all the data is in the first cell. The first row does not have any formatting.
+
 
 # Directory 5
 
