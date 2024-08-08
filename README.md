@@ -83,6 +83,18 @@ combine_tsv_to_excel2.py - I think this achieves the desired results. I changed 
 
 
 # Directory 5
+maker_original.py - this script has an error and just creates an empty Excel spreadsheet.
+
+maker_original2.py - this script has an error and just creates an empty Excel spreadsheet.
+
+maker_original3.py - this script has an error and just creates an empty Excel spreadsheet.
+
+maker_original4.py - this script has an error and just creates an empty Excel spreadsheet.
+
+maker_original5.py - this script has a warning. There's a message when you open the spreadsheet created by it. It has a blank worksheet. The summary tsv worksheet only has the first two lines.
+
+maker_original6.py - this script has a lot of the same problems as the last one. It does not produce a usable spreadsheet.
+
 
 # Directory 6
 maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file.
