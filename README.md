@@ -91,7 +91,7 @@ maker_original3.py - this script has an error and just creates an empty Excel sp
 
 maker_original4.py - this script has an error and just creates an empty Excel spreadsheet.
 
-maker_original5.py - this script has a warning. There's a message when you open the spreadsheet created by it. It has a blank worksheet. The summary tsv worksheet only has the first two lines.
+maker_original5.py - this script has a warning in its output. There's a message when you open the spreadsheet created by it. It has a blank worksheet. The summary tsv worksheet only has the first two lines.
 
 maker_original6.py - this script has a lot of the same problems as the last one. It does not produce a usable spreadsheet.
 
