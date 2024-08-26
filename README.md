@@ -101,7 +101,7 @@ maker_original.py - this is the first try. Doesn't save and doesn't handle the s
 
 maker_original2.py - this is the second try. Doesn't save and includes only partial data for the summary file.
 
-maker_original3.py - same as the last one, just changes .save() to .close()
+maker_original3.py - same as the last one, I just changed .save() to .close(). It does create a spreadsheet successfully, but includes only partial data for the summary file. The header rows are also formatted.
 
 maker_original4.py - This is bad. Now every sheet has Key and Value as column headers.
 
