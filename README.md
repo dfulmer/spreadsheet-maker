@@ -107,7 +107,7 @@ maker_original4.py - This is bad. Now every sheet has Key and Value as column he
 
 maker_original5.py - This is really good except the header lines all have formatting and in the summary sheet it starts with “Content” and then the data is below that.
 
-maker_original6.py - This is almost perfect. The summary sheet looks great and each line is just a line. 
+maker_original6.py - This is almost perfect. The summary sheet looks great and each line is just a line. All the sheets have a formatted first row except for the summary sheet, which has no formatting.
 
 maker_original7.py - This does what it should do. All the tsv files are turned into worksheets, the anomalous summary sheet has no columns but does have all data in it, and headers do not have formatting.
 
