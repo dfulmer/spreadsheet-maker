@@ -97,7 +97,7 @@ maker_original6.py - this script has a lot of the same problems as the last one.
 
 
 # Directory 6
-maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file.
+maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file. It creates an Excel file but that's empty.
 
 maker_original2.py - this is the second try. Doesn't save and includes only partial data for the summary file.
 
