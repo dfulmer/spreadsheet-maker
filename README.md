@@ -97,17 +97,17 @@ maker_original6.py - this script has a lot of the same problems as the last one.
 
 
 # Directory 6
-maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file.
+maker_original.py - this is the first try. Doesn't save and doesn't handle the summary file. It creates an Excel file but that's empty.
 
 maker_original2.py - this is the second try. Doesn't save and includes only partial data for the summary file.
 
-maker_original3.py - same as the last one, just changes .save() to .close()
+maker_original3.py - same as the last one, I just changed .save() to .close(). It does create a spreadsheet successfully, but includes only partial data for the summary file. The header rows are also formatted.
 
 maker_original4.py - This is bad. Now every sheet has Key and Value as column headers.
 
 maker_original5.py - This is really good except the header lines all have formatting and in the summary sheet it starts with “Content” and then the data is below that.
 
-maker_original6.py - This is almost perfect. The summary sheet looks great and each line is just a line. 
+maker_original6.py - This is almost perfect. The summary sheet looks great and each line is just a line. All the sheets have a formatted first row except for the summary sheet, which has no formatting.
 
 maker_original7.py - This does what it should do. All the tsv files are turned into worksheets, the anomalous summary sheet has no columns but does have all data in it, and headers do not have formatting.
 
