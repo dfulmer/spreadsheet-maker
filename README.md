@@ -115,7 +115,7 @@ maker_original7.py - This does what it should do. All the tsv files are turned i
 # Directory 7
 maker_original.py - this is the first try. Everything seems to be there including the summary worksheet. The only problem is that the Excel spreadsheet starts with a blank worksheet, called "Sheet".
 
-maker_original2.py - this is the second try. I think it would prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
+maker_original2.py - this is the second try. I think it might prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
 
 maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected.
 
