@@ -117,7 +117,7 @@ maker_original.py - this is the first try. Everything seems to be there includin
 
 maker_original2.py - this is the second try. The result is the same as the first script. I think it might prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
 
-maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected.
+maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected. All the worksheets are there and the first row does not have formatting.
 
 
 # Directory 7
