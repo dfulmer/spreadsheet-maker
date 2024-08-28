@@ -123,7 +123,7 @@ maker1.py - this is the first try plus one line I added to delete the first blan
 # Directory 8
 maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. The script generates an error and while a spreadsheet is created, it is empyt and has an error when opened. It never worked.
 
-maker_original2.py - this just put everything in one cell for the summary tsv file.
+maker_original2.py - this one creates a spreadsheet with all the worksheets. The first row of most worksheets is formatted. For the summary tsv file, everything is put into one cell. It has carriage returns and everything but it is all in one cell that appears as one long string in the spreadsheet.
 
 maker_original3.py - this is almost perfect, it just has the header formatted in bold (I also changed .save to .close. The error was "AttributeError: 'XlsxWriter' object has no attribute 'save'").
 
