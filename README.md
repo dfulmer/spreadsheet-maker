@@ -127,7 +127,7 @@ maker_original2.py - this one creates a spreadsheet with all the worksheets. The
 
 maker_original3.py - this is almost perfect, it just has the header formatted in bold (I also changed .save to .close. The error was "AttributeError: 'XlsxWriter' object has no attribute 'save'").
 
-maker_original4.py - this one does not have a first row, it removed it.
+maker_original4.py - this one does not have a first row, it removed it. It was the row with the header information.
 
 maker_original5.py - this one does what I want. The summary tsv file is all in a worksheet, and the header is not formatted.
 
