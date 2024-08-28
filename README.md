@@ -32,6 +32,8 @@ Change into the /1 directory:
 To run the program you need to put files with .tsv file extensions into the /1 directory. Then give the command:  
 ```python maker1.py```  
 
+# Spreadsheet Maker Script
+
 # Directory 1
 Notes on /1:  
 maker_original... are original scripts, unedited.  
@@ -132,8 +134,10 @@ maker_original4.py - this one does not have a first row, it removed it. It was t
 maker_original5.py - this one does what I want. The summary tsv file is all in a worksheet, and the header is not formatted.
 
 
+# Spreadsheet Maker App
 
-TBD
+# Directory 1
+
 
 # Deactivate the virtual environment
 ```deactivate```
