@@ -120,7 +120,7 @@ maker_original2.py - this is the second try. The result is the same as the first
 maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected. All the worksheets are there and the first row does not have formatting.
 
 
-# Directory 7
+# Directory 8
 maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. It never worked.
 
 maker_original2.py - this just put everything in one cell for the summary tsv file.
