@@ -121,7 +121,7 @@ maker1.py - this is the first try plus one line I added to delete the first blan
 
 
 # Directory 8
-maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. It never worked.
+maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. The script generates an error and no spreadsheet is created. It never worked.
 
 maker_original2.py - this just put everything in one cell for the summary tsv file.
 
