@@ -32,6 +32,8 @@ Change into the /1 directory:
 To run the program you need to put files with .tsv file extensions into the /1 directory. Then give the command:  
 ```python maker1.py```  
 
+# Spreadsheet Maker Script
+
 # Directory 1
 Notes on /1:  
 maker_original... are original scripts, unedited.  
@@ -113,27 +115,29 @@ maker_original7.py - This does what it should do. All the tsv files are turned i
 
 
 # Directory 7
-maker_original.py - this is the first try. Everything seems to be there except the Excel spreadsheet starts with a blank worksheet, called "Sheet".
+maker_original.py - this is the first try. Everything seems to be there including the summary worksheet. The only problem is that the Excel spreadsheet starts with a blank worksheet, called "Sheet".
 
-maker_original2.py - this is the second try. I think it would prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
+maker_original2.py - this is the second try. The result is the same as the first script. I think it might prevent making a sheet if there was a blank tsv file, but that isn't the problem. Actually no, it just doesn't create a spreadsheet if all the tsv files are empty.
 
-maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected.
+maker1.py - this is the first try plus one line I added to delete the first blank sheet. This appears to work as expected. All the worksheets are there and the first row does not have formatting.
 
 
-# Directory 7
-maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. It never worked.
+# Directory 8
+maker_original.py - this had a problem with the summary file and the two first lines that don't have tab characters. The script generates an error and while a spreadsheet is created, it is empyt and has an error when opened. It never worked.
 
-maker_original2.py - this just put everything in one cell for the summary tsv file.
+maker_original2.py - this one creates a spreadsheet with all the worksheets. The first row of most worksheets is formatted. For the summary tsv file, everything is put into one cell. It has carriage returns and everything but it is all in one cell that appears as one long string in the spreadsheet.
 
 maker_original3.py - this is almost perfect, it just has the header formatted in bold (I also changed .save to .close. The error was "AttributeError: 'XlsxWriter' object has no attribute 'save'").
 
-maker_original4.py - this one does not have a first row, it removed it.
+maker_original4.py - this one does not have a first row, it removed it. It was the row with the header information.
 
 maker_original5.py - this one does what I want. The summary tsv file is all in a worksheet, and the header is not formatted.
 
 
+# Spreadsheet Maker App
 
-TBD
+# Directory 1
+
 
 # Deactivate the virtual environment
 ```deactivate```
