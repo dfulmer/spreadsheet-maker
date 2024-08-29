@@ -21,7 +21,9 @@ cd into spreadsheet-maker
 # Packages needed
 pandas  
 openpyxl  
-xlsxwriter
+xlsxwriter  
+pytest  
+
   
 Or install from a requirements.txt file, if there is one:  
 ```python -m pip install -r requirements.txt```
