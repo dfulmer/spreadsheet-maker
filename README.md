@@ -23,8 +23,9 @@ pandas
 openpyxl  
 xlsxwriter  
 pytest  
+pytest-cov  
 
-  
+
 Or install from a requirements.txt file, if there is one:  
 ```python -m pip install -r requirements.txt```
 
