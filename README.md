@@ -144,7 +144,22 @@ maker_original5.py - this one does what I want. The summary tsv file is all in a
 
 # Spreadsheet Maker App
 
-# Directory 1
+# Directory apps/1
+combine_tsv_to_excel.py - this didn’t really work at first cause it’s just a function.
+
+combine_tsv_to_excel2.py - this did create a spreadsheet but the first row is formatted. The Summary has a ‘0’ in the second column of the 2nd row for some reason. There should be three equals signs. There is an error when you open the Excel spreadsheet.
+
+pytest - this command did run the test. I had to edit the original file apps/1/test_combine_tsv_to_excel.py because I changed the name of the main file. So I added this:
+from combine_tsv_to_excel2 import combine_tsv_to_excel
+(note the “2”)
+There’s only one test, and it passed.
+
+pytest --cov=combine_tsv_to_excel2 - this runs the test and gives a little coverage report
+
+pytest --cov=combine_tsv_to_excel2 --cov-report=html - this runs the test and puts a html report in htmlcov directory.
+
+
+# Directory apps/2
 
 
 # Deactivate the virtual environment
