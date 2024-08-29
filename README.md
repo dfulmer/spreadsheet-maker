@@ -17,6 +17,11 @@ cd into spreadsheet-maker
 
 # Install the packages
 ```python -m pip install [package name]```  
+
+# Packages needed
+pandas  
+openpyxl  
+xlsxwriter
   
 Or install from a requirements.txt file, if there is one:  
 ```python -m pip install -r requirements.txt```
