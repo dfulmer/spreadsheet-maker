@@ -154,7 +154,7 @@ from combine_tsv_to_excel2 import combine_tsv_to_excel
 (note the “2”)
 There’s only one test, and it passed.
 
-pytest --cov=combine_tsv_to_excel2 - this runs the test and gives a little coverage report
+pytest --cov=combine_tsv_to_excel2 - this runs the test and gives a little coverage report in the output
 
 pytest --cov=combine_tsv_to_excel2 --cov-report=html - this runs the test and puts an html report in htmlcov directory.
 
