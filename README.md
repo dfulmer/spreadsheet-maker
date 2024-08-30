@@ -159,7 +159,6 @@ pytest --cov=combine_tsv_to_excel2 - this runs the test and gives a little cover
 pytest --cov=combine_tsv_to_excel2 --cov-report=html - this runs the test and puts a html report in htmlcov directory.
 
 
-# Directory apps/2
 
 
 # Deactivate the virtual environment
