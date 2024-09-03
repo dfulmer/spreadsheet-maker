@@ -162,6 +162,10 @@ pytest --cov=combine_tsv_to_excel2 --cov-report=html - this runs the test and pu
 # Directory apps/7
 app.py - this did create a spreadsheet. But there was an error on opening. There is a blank worksheet. The second cell of the second row of the summary tsv isn’t in the spreadsheet. Otherwise the data seems to be there.
 
+pytest test_app.py - this runs the test, which fails.
+
+pytest --cov=app test_app.py - this prints out a little coverage report. 92%
+
 
 # Deactivate the virtual environment
 ```deactivate```
