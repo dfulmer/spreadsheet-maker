@@ -20,7 +20,7 @@ def test_combine_tsv_files_to_excel():
 
     # Check the output
     workbook = openpyxl.load_workbook(output_filename)
-    assert len(workbook.sheetnames) == 3  # Check number of worksheets
+    assert len(workbook.sheetnames) == 4  # Check number of worksheets
     for sheet_name in workbook.sheetnames:
         worksheet = workbook[sheet_name]
         assert worksheet.max_row == 2  # Check number of rows
