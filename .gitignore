@@ -32,6 +32,9 @@ venv/
 apps/1/*.xlsx
 apps/1/*.tsv
 
+apps/7/*.xlsx
+apps/7/*.tsv
+
 # Unit test / coverage reports
 .coverage
 .coverage.*
