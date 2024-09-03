@@ -2,6 +2,7 @@ import pytest
 import app
 import tempfile
 import os
+import openpyxl
 
 def test_combine_tsv_files_to_excel():
     # Create temporary TSV files
