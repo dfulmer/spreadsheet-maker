@@ -8,7 +8,7 @@ def combine_tsv_to_excel(output_filename='SEEES_search_request.xlsx'):
             df = pd.read_csv(filename, sep='\t')
             sheet_name = os.path.splitext(filename)[0]
             df.to_excel(writer, sheet_name=sheet_name, index=False)
-    writer.save()
+    writer.close()
 
 if __name__ == "__main__":
     combine_tsv_to_excel()
