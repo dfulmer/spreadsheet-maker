@@ -170,6 +170,7 @@ pytest --cov=combine_tsv --cov-report=html - This creates a report.
 
 
 
+
 # Directory apps/7
 app.py - this did create a spreadsheet. But there was an error on opening. There is a blank worksheet. The second cell of the second row of the summary tsv isn’t in the spreadsheet. Otherwise the data seems to be there.
 
