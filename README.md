@@ -161,11 +161,15 @@ pytest --cov=combine_tsv_to_excel2 --cov-report=html - this runs the test and pu
 # Directory apps/2
 combine_tsv.py - had to change .save to .close but then it worked. I also updated my test files with this one. There were problems caused by using equals signs - the spreadsheet showed an error on opening. I think that may have explained all the previous problems where there was an error when you open the Excel spreadsheet. This script now makes a spreadsheet, but it does have formatting of the first row - bold text, and centered in the cell.
 
+test_combine_tsv.py - this has two tests.
+
 pytest - one test passes, the second test does not. There seems to be other errors as well.
 
 pytest --cov=combine_tsv --cov-report=html - This creates a report.
 
+combine_tsv2.py - I made a second attempt.
 
+test_combine_tsv2.py - this has two tests. It still has one that pass and one that does not.
 
 
 
