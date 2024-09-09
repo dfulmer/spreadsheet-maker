@@ -176,6 +176,7 @@ app.py - this works almost perfectly, it just has a formatted first row.
 
 pytest test_app.py - both tests fail.
 
+pytest test_app2.py - both tests fail. I just changed the first script by adding an import statement to get the function being tested.
 
 
 
