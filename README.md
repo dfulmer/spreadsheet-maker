@@ -182,6 +182,9 @@ pytest test_app3.py - both tests pass. But this is working in the same directory
 
 pytest --cov=app test_app3.py - this command prints out a little report. 90%.
 
+pytest --cov=app test_app3.py --cov-report=html - this creates the html report.
+
+
 
 
 # Directory apps/7
