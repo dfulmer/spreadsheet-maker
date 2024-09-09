@@ -180,6 +180,8 @@ pytest test_app2.py - both tests fail. I just changed the first script by adding
 
 pytest test_app3.py - both tests pass. But this is working in the same directory and creating a bunch of test files there. I added some commands to remove the test files. Also, the second test which tests that when there are no tsv files, no xlsx file is created, isn't really working. I had to put in a statement to remove a blank file because the combine_tsv_files function actually does create a spreadsheet even if there are not tsv files. I took out the tmpdir stuff, which I don't quite understand yet.
 
+pytest --cov=app test_app3.py - this command prints out a little report. 90%.
+
 
 
 # Directory apps/7
