@@ -35,6 +35,9 @@ apps/1/*.tsv
 apps/2/*.xlsx
 apps/2/*.tsv
 
+apps/3/*.xlsx
+apps/3/*.tsv
+
 apps/7/*.xlsx
 apps/7/*.tsv
 
