@@ -171,6 +171,20 @@ combine_tsv2.py - I made a second attempt.
 
 test_combine_tsv2.py - this has two tests. It still has one that pass and one that does not.
 
+# Directory apps/3
+app.py - this works almost perfectly, it just has a formatted first row.
+
+pytest test_app.py - both tests fail.
+
+pytest test_app2.py - both tests fail. I just changed the first script by adding an import statement to get the function being tested.
+
+pytest test_app3.py - both tests pass. But this is working in the same directory and creating a bunch of test files there. I added some commands to remove the test files. Also, the second test which tests that when there are no tsv files, no xlsx file is created, isn't really working. I had to put in a statement to remove a blank file because the combine_tsv_files function actually does create a spreadsheet even if there are not tsv files. I took out the tmpdir stuff, which I don't quite understand yet.
+
+pytest --cov=app test_app3.py - this command prints out a little report. 90%.
+
+pytest --cov=app test_app3.py --cov-report=html - this creates the html report.
+
+Hint: to get to 100%, do this: in app.py, on line 16, after combine_tsv_files() ... Add this: "# pragma: no cover"
 
 
 
