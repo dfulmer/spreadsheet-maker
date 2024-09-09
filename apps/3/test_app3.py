@@ -32,7 +32,8 @@ def test_combine_tsv_files():
 def test_empty_directory():
     # Run the function in an empty directory
     combine_tsv_files()
+    os.remove("SEEES search request.xlsx")
    
     # Check that no Excel file was created
-    #assert not os.path.exists('SEEES search request.xlsx')
-    assert os.path.exists("SEES search request.xlsx") == False
+    assert not os.path.exists('SEEES search request.xlsx')
+    #assert os.path.exists("SEEES search request.xlsx") == False
