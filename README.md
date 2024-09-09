@@ -172,6 +172,8 @@ combine_tsv2.py - I made a second attempt.
 test_combine_tsv2.py - this has two tests. It still has one that pass and one that does not.
 
 # Directory apps/3
+app.py - this works almost perfectly, it just has a formatted first row.
+
 
 
 
