@@ -187,7 +187,7 @@ pytest --cov=app test_app3.py --cov-report=html - this creates the html report.
 Hint: to get to 100%, do this: in app.py, on line 16, after combine_tsv_files() ... Add this: "# pragma: no cover"
 
 # Directory apps/4
-
+python combine_tsv.py - this works almost perfectly, it just has a formatted first row.
 
 
 
