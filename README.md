@@ -191,7 +191,7 @@ python combine_tsv.py - this works almost perfectly, it just has a formatted fir
 
 pytest test_combine_tsv.py - this runs one tests, which passes. The test file is creating a subdirectory and two files which it deletes at the end of the test. 
 
-
+pytest --cov=combine_tsv --cov-report=html = this generates the coverage report.
 
 
 # Directory apps/7
