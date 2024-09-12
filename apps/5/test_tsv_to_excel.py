@@ -27,4 +27,11 @@ def test_tsv_to_excel():
 tsv_files = [os.path.join(temp_dir, 'input', filename) for filename in os.listdir(os.path.join(temp_dir, 'input'))]
 
     # Call the function to create the Excel spreadsheet
-tsv_
+tsv_to_excel(tsv_files, os.path.join(temp_dir, 'output', 'SEEES search request.xlsx'))
+
+    # Assert that the output file exists
+assert os.path.exists(os.path.join(temp_dir, 'output', 'SEEES search request.xlsx'))
+
+    # Open the output file and check the worksheet names
+wb = openpyxl.load_workbook(os.path.join(temp_dir, 'output', 'SEEES search request.xlsx'))
+    assert wb.sheetnames == ['test1', 'test2']
