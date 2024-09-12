@@ -13,11 +13,14 @@ def tsv_to_excel(tsv_files, output_filename):
     Returns:
     - None: Creates the spreadsheet and saves it to the provided filename.
     """
-wb = Workbook()
+    wb = Workbook()
     wb.save(output_filename)
 
     for index, filename in enumerate(tsv_files):
         dataframe = pd.read_csv(filename, sep='\t', header=None, on_bad_lines='skip')
+
+        filename = filename.rsplit('/', 1)[-1][:-4]
+
         wb.create_sheet(title=filename)
         ws = wb[filename]
         rows = [list(row) for row in dataframe.values]
