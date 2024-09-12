@@ -194,6 +194,11 @@ pytest test_combine_tsv.py - this runs one tests, which passes. The test file is
 pytest --cov=combine_tsv --cov-report=html = this generates the coverage report.
 
 
+# Directory apps/5
+python tsv_to_excel.py - after making some edits, this worked. The spreadsheet has one blank sheet to begin with but now first row formatting.
+
+Tests - I had a tests file but it didn't work at all, one test FAILED, one had ERROR.
+
 # Directory apps/7
 app.py - this did create a spreadsheet. But there was an error on opening. There is a blank worksheet. The second cell of the second row of the summary tsv isn’t in the spreadsheet. Otherwise the data seems to be there.
 
