@@ -199,6 +199,18 @@ python tsv_to_excel.py - after making some edits, this worked. The spreadsheet h
 
 Tests - I had a tests file but it didn't work at all, one test FAILED, one had ERROR.
 
+
+# Directory apps/6
+python tsv_to_excel.py - this creates a spreadsheet. It also has an error if there are no tsv files. The spreadsheet is complete but does have formatting of the first row.
+
+pytest test_tsv_to_excel.py - this seems not to work if there are any .tsv files in the same directory. If there are no .tsv files in the same directory then the two tests pass.
+
+pytest --cov=tsv_to_excel test_tsv_to_excel.py - this produces a coverage report showing 87% coverage.
+
+pytest --cov=tsv_to_excel --cov-report=html test_tsv_to_excel.py - this generates the html report.
+
+
+
 # Directory apps/7
 app.py - this did create a spreadsheet. But there was an error on opening. There is a blank worksheet. The second cell of the second row of the summary tsv isn’t in the spreadsheet. Otherwise the data seems to be there.
 
