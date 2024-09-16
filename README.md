@@ -210,13 +210,20 @@ pytest --cov=tsv_to_excel test_tsv_to_excel.py - this produces a coverage report
 pytest --cov=tsv_to_excel --cov-report=html test_tsv_to_excel.py - this generates the html report.
 
 
-
 # Directory apps/7
 app.py - this did create a spreadsheet. But there was an error on opening. There is a blank worksheet. The second cell of the second row of the summary tsv isn’t in the spreadsheet. Otherwise the data seems to be there.
 
 pytest test_app.py - this runs the test, which fails.
 
 pytest --cov=app test_app.py - this prints out a little coverage report. 92%
+
+
+# Directory apps/8
+python combine_tsv_to_excel.py - this creates a spreadsheet. It also has an sensible error message if there are no tsv files. The spreadsheet is complete but does have formatting of the first row.
+
+pytest test_combine_tsv_to_excel.py - originally this didn't really work. I made some changes so that there are now 2 generic tests to show formatting, then 3 tests which pass. It used 'tmpdir' and I switched it over to tmp_path_factory.
+
+pytest --cov=combine_tsv_to_excel --cov-report html = generates the coverage report.
 
 
 # Deactivate the virtual environment
