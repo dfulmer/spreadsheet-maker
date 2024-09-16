@@ -50,6 +50,9 @@ apps/6/*.tsv
 apps/7/*.xlsx
 apps/7/*.tsv
 
+apps/8/*.xlsx
+apps/8/*.tsv
+
 # Unit test / coverage reports
 .coverage
 .coverage.*
